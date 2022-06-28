@@ -1,0 +1,533 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Nanum Gothic' sans-serif;
+    font-family: 'Sedgwick Ave', cursive; 
+    margin: 0;
+} 
+
+    h1{ font-size: 3.5em;
+        font-family: 'Sedgwick Ave';}
+        h2{ font: size 2em;  
+        font-family: 'Manrope';}
+        h3{ font-family: 'Bebas Neue';
+        font-size: 1.5em; }
+        h4{font-size: 1em; 
+        font-family: 'Manrope';}
+        h5{ font-family: 'Comic Neue';
+        font-size: 1.5em;}
+        p{ font-size: 1.25em;}
+        ul{ list-style: none;}
+        li{ font-size: 1.25em;}
+
+        button{
+            font-size: 1.25em;
+            font-family: 'Manrope';
+            font-weight: lighter; 
+            padding: 10px 30px;
+            border-radius: 0px;
+            border: 2px solid rgba(0,0,0,0.3);
+            color: black; 
+            background-color:white;
+            border-style:hidden; 
+            border-color: white;}
+
+            .button1 {
+                font-size: 1.25em;
+                font-family: 'Manrope';
+                font-weight: lighter;
+                padding: 10px 30px;
+                border-radius: 5px;
+                border: 2px solid rgba(0,0,0,0.3);
+                 color: black;
+                background-color:#e4a473;
+                border-style:outset;
+                border-color: white;
+                border-radius: 0px;
+            }
+        
+        button:hover{
+            background-color:#e4a473;
+        } 
+       
+        
+        .color-acento{ color:red; }
+        
+
+/* INICIO DE GRID*/ 
+html, body{
+    margin: 0;
+    padding: 0;
+  }  
+ 
+
+  h2{
+    text-align: center;
+    padding: 20px 0;
+    color:white;
+    font-size: 40px;
+  }
+  
+  .container{
+    max-width: 1400px;
+     margin: auto;
+  }
+  
+  div{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*HEADER*/
+  
+ 
+  .header1{
+    display:inline-block; 
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    background-size: auto;
+    padding-top: 0px;
+    padding-bottom: auto; 
+    margin: auto;
+    width: 100%;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+}
+
+
+
+  #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    justify-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center; 
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.5em;
+}
+
+/*BANNER1*/ 
+.banner1{   
+    display: inline-block;
+    float:left; 
+    width: 100%;
+    text-align: center;
+    padding: 0px; /* me ayudo a no tener espacio*/ 
+    margin: 0px;
+    background-color: #e4a473;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("media/hero.jpg.png");
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+  /*PHOTO1*/ 
+  photo1{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 120px 0;
+    background-color:#e4a473;
+  }
+  photo2{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 120px 0;
+    background-color: #e4a473;
+  }
+
+
+
+ .nuestros.programas{
+    background-color: #e4a473;
+    display: flex;
+    text-align: center;
+    padding: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+ }
+ 
+ .s1{
+    display:inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 100px 0;
+    background-color: black;
+  }
+  .carta1{
+    font-family:'Manrope';
+    font-size: small;
+    color: black;
+    background-position: center;
+    background-image: url(media/AdobeStock_404246553.jpeg);
+    background-size: cover;
+    min-height: auto;
+    max-width: auto;
+    padding: 100px 10px 0 0;
+    margin: 20px;
+    border-radius: 15px;
+  }
+
+  .s2{
+    display:inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 100px 0;
+    background-color: black; 
+  }
+  .carta2{
+    font-family:'Manrope';
+    font-size: small;
+    color: black;
+    background-position: center;
+    background-image: url(media/mujer-maletin.jpeg);
+    background-size: cover;
+    min-height: auto;
+    max-width: auto;
+    padding: 100px 10px 0 0;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+  .s3{
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 100px 0;
+    background-color: black; 
+  }
+  .carta3{
+    font-family:'Manrope';
+    font-size: small;
+    color: black;
+    background-position: right;
+    background-image: url(media/AdobeStock_404749664.jpeg);
+    background-size: cover;
+    height: auto;
+    max-width: auto;
+    padding: 100px 10px 0 0 ;
+    margin: 20px;
+    border-radius: 15px;
+  }
+
+  
+  
+  .banner2{
+    display: inline-block;
+    float:left; 
+    width: 100%;
+    text-align: center;
+    padding: 0px; /* me ayudo a no tener espacio*/ 
+    margin: 0px;
+    background-color: #e4a473;
+  }
+
+/*AQUI EMPIEZA EL FOOTER*/ 
+  .footer{
+    display: inline-block;
+    padding: 30px 0;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+     background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    align-items:center;
+    font-family: 'Bebas Neue';
+  }
+  
+  
+  /* Collapse to full width column */
+  
+  @media only screen and (max-width: 750px){
+    .s1{
+      width: 33%;
+    }
+    .s2{
+      width: 33%;
+    }
+    .s3{
+      width: 33%;
+    }
+  }
+  
+  @media only screen and (max-width: 660px){
+    .photo1{
+      width: 100%;
+    }
+    .photo2{
+      width: 100%;
+    }
+   .photo3{
+      width: 100%;
+    }
+    .photo4{
+      width: 100%;
+    }
+  
+/*ENLACES*/
+  }
+.flexbox {
+    font-size: 2em; 
+    font-family: 'Sedgwick Ave';
+    align-items: center;
+    line-height: 1;
+    text-align: center;
+    padding: 5rem;
+    background: burlywood;
+    border: 3px solid #e4a473;
+    color:black
+    margin 6px;
+  }
+  .protada1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center; 
+  }
+
+  .listas1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center; 
+  }
+
+
+¨/* GALERIA*/
+body {
+    box-sizing: border-box;
+    background-color: #eee;
+    color: #eee;
+  }
+  
+  .containergallery {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5em;
+  }
+  
+  header  h1 {
+    color: white;
+    margin-top: 0;
+    font-family: 'Bebas Neue';
+    font-size: 1.5em; 
+    border-bottom: 1px solid black;
+  }
+  
+  .gallery {
+    display: grid;
+    margin: 3em 0;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+  }
+  
+  figure {
+    display: flex;
+    margin: 0;
+  }
+  
+  img {
+    flex: 1;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+/*TRANSICIONES, ANIMACIONES,ETC*/
+.animame {
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    /* animation-timing-function: cubic-bezier(.06,.87,1,.18); */
+}
+@keyframes anima {
+    0% /*origen*/ {
+        border-radius: 50%;
+    }
+    30% {
+        transform: translateX(700px);
+    }
+    50% {
+        transform: translateX(400px);
+        background-image: linear-gradient(140deg, rgb(97, 160, 97) 50%, rgb(87, 87, 184));
+    }
+    80% {
+        transform: translateX(700px);
+    }
+    100%/*final*/{
+        transform: translateX(0);
+        border-radius: 50%;
+    }
+}
+
+.animame-dos {
+    
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes aparece {
+    from {
+        opacity: 0%;
+        transform: translateX(-200px);
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+
+.animationt{   
+    display: inline-block;
+    float:left; 
+    width: 100%;
+    text-align: center;
+    padding: 0px; /* me ayudo a no tener espacio*/ 
+    margin: 0px;
+    background-image: url(media/moduki.jpeg); 
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+
+.containerp {
+  position: relative;
+}
+.boxp {
+  width: 100%;
+  height:100%; 
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+#box-1 {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%); 
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+#box-1:hover {
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+  
+
+/*MENU*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  font-family: 'Bebas Neue'; 
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+#nav-1 {
+  background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+}
+.link-1 {
+  transition: 0.3s ease;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px black; 
+  border-bottom: 4px black; 
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+/*FORMULARIO*/
+
+*{
+  margin: 0;
+ 	padding: 0;
+}
+body {
+  background-color: white;
+  background-size: cover;
+	font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif,aclonica;
+    font-size:14px;
+	color:black; 
+}
+.h3 {
+  font-family: "aclonica";
+  font-weight: bold; 
+}
